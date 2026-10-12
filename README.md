@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=green" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -70,9 +70,9 @@ The table below catalogs premier SaaS & Cloud ERP/CRM platforms tailored for man
 
 The following self-hosted and open-source solutions provide full code sovereignty, auditable production workflows, and zero vendor lock-in. 
 
-Projects are sorted in **descending order by GitHub Star count** 🌟. Click any star badge to inspect the repository stargazers.
+Projects are sorted in **descending order by GitHub Stars_Count** 🌟. Click any Stars_Badge to inspect the repository stargazers.
 
-| Project & Repository | GitHub Stars Badge | Primary License | Architecture & Focus |
+| Project & Repository | GitHub_Stars_Badge | Primary License | Architecture & Focus |
 | :--- | :---: | :---: | :--- |
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | Modern CRM with extensible data models, REST/GraphQL APIs, and custom pipeline workflows adaptable for industrial B2B sales pipelines. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Comprehensive modular suite featuring MRP, Work Centers, Routing, PLM, CPQ, Maintenance, and full customer lifecycle pipelines. |
