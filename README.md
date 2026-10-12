@@ -1,6 +1,6 @@
 # Awesome-Manufacturing-CRM
 
-# Top Manufacturing CRM Tools Ecosystem
+## Top Manufacturing CRM Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Production Planning, BOM Management & Manufacturer-Customer Relationships*  
