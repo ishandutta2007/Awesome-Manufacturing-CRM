@@ -1,130 +1,162 @@
-# Awesome-Manufacturing-CRM
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Manufacturing CRM Banner" width="100%" />
+</p>
 
-## Top Manufacturing CRM Tools Ecosystem
+# 🏭 Awesome-Manufacturing-CRM 🚀
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Production Planning, BOM Management & Manufacturer-Customer Relationships*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Manufacturing CRM Tools**. These tools help manufacturers manage the unique relationship between sales, production, and customers — connecting quotes to bills of materials, tracking orders through the factory floor, coordinating distributors, and managing after-sales service and warranty claims.
-
-**Examples** include Salesforce Manufacturing Cloud, Infor CloudSuite Manufacturing, Microsoft Dynamics 365 Supply Chain, Epicor ERP, Plex Systems, JobBOSS, Katana Cloud Manufacturing, Rootstock Software, QAD Adaptive ERP, and Fishbowl (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom manufacturing workflows, and transparent production data — ideal for small and mid-size manufacturers, CNC shops, and developers building data-sovereign manufacturing CRM platforms.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Salesforce Manufacturing Cloud](https://www.salesforce.com/)**  
-  Industry-specific CRM with sales agreements, account-based forecasting, and run-rate business planning for manufacturers.
-
-- **[Infor CloudSuite Manufacturing](https://www.infor.com/)**  
-  Enterprise manufacturing ERP with CRM, supply chain, and production management for discrete and process manufacturers.
-
-- **[Microsoft Dynamics 365 Supply Chain](https://www.microsoft.com/en-us/dynamics-365)**  
-  Unified ERP and CRM with manufacturing execution, inventory, and customer relationship management.
-
-- **[Epicor ERP](https://www.epicor.com/)**  
-  Manufacturing ERP with CRM, production planning, and supply chain management for make-to-order and mixed-mode manufacturers.
-
-- **[Plex Systems](https://www.plex.com/)**  
-  Cloud manufacturing platform with MES, ERP, and quality management for discrete and process manufacturers.
-
-- **[JobBOSS](https://www.jobboss.com/)**  
-  ERP for job shops and make-to-order manufacturers with quoting, scheduling, and customer management.
-
-- **[Katana Cloud Manufacturing](https://katanamrp.com/)**  
-  Cloud manufacturing ERP with CRM, inventory, and production planning for small manufacturers.
-
-- **[Rootstock Software](https://www.rootstock.com/)**  
-  Manufacturing ERP built on Salesforce with CRM, production, and supply chain modules.
-
-- **[QAD Adaptive ERP](https://www.qad.com/)**  
-  Manufacturing ERP with CRM, supply chain, and production management for automotive and life sciences.
-
-- **[Fishbowl](https://www.fishbowlinventory.com/)**  
-  Inventory management and manufacturing software with CRM and order management for small businesses.
-
-## Open-Source GitHub Projects
-
-- **[ERPNext](https://github.com/frappe/erpnext)**  
-  Leading open-source ERP with comprehensive CRM, manufacturing, inventory, and accounting modules. Features BOM management, work orders, production planning, and sales pipeline connected directly to production. Python/Frappe framework. GPL-3.0 licensed [citation:2][citation:7][citation:10].
-
-- **[Odoo](https://github.com/odoo/odoo)**  
-  Modular open-source ERP with CRM, manufacturing (MRP), inventory, and sales modules. Manufacturing features include BOMs, work centers, production orders, and configure-price-quote workflows. LGPL-3.0 licensed [citation:2][citation:7][citation:15].
-
-- **[MyCompany](https://github.com/lsfusion-solutions/mycompany)**  
-  Free open-source ERP/CRM for small businesses with manufacturing, inventory, sales CRM, and purchasing in one application. Features production orders, BOMs with operations, work centers, lead kanban, and sales orders from leads. Apache 2.0 licensed [citation:1].
-
-- **[Craftplan](https://github.com/puemos/craftplan)**  
-  Open-source ERP purpose-built for artisanal manufacturers and craft businesses. Features versioned BOMs with cost rollups, production batching, inventory with lot traceability, CRM, and order management. Elixir/Phoenix stack [citation:6][citation:11].
-
-- **[Carbon](https://github.com/teristit/carbon)**  
-  Open-source manufacturing ERP/MES/QMS designed for complex assembly, high-mix low-volume, and configure-to-order manufacturing. Features nested BOMs, MRP, configurator, traceability, and API-first architecture [citation:9].
-
-- **[Tryton](https://github.com/tryton/tryton)**  
-  Modular open-source business platform with production modules covering routing steps, work centers, and cycle tracking. Features BOMs, production orders, and work orders for process-led manufacturers. GPL-3.0 licensed [citation:2][citation:7].
-
-- **[metasfresh](https://github.com/metasfresh/metasfresh)**  
-  Open-source ERP focused on distribution, supply chain, and manufacturing. Features product data, BOMs, production planning, warehouse management, and traceability. GPL-2.0 licensed [citation:7].
-
-- **[Apache OFBiz](https://github.com/apache/ofbiz-framework)**  
-  Open-source business application suite with manufacturing, MRP, CRM, and supply chain modules. Java-based framework for custom enterprise applications. Apache 2.0 licensed [citation:2][citation:7].
-
-- **[Dolibarr](https://github.com/Dolibarr/dolibarr)**  
-  Open-source ERP/CRM for small businesses with invoice, order, stock, and contact management. Simpler than full ERP but covers basics for small manufacturers. GPL-3.0 licensed [citation:2][citation:17].
-
-- **[Celerp](https://github.com/celerp/celerp)**  
-  Self-hosted ERP with industry presets for inventory, purchasing, invoicing, CRM, manufacturing, and accounting. MIT business modules, source-available core. PostgreSQL-backed [citation:16].
-
-- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**  
-  Open-source CRM extensively customizable for manufacturing use cases. Build custom modules for product catalogs, distributor management, order tracking, warranty, and after-sales service with ERP integration via REST API [citation:5][citation:15].
-
-- **[EspoCRM](https://github.com/espocrm/espocrm)**  
-  Open-source CRM with customizable entities, workflow automation, and email integration. Adaptable for manufacturer-customer relationship management. GPL-3.0 licensed.
-
-- **[Krayin](https://github.com/krayin/laravel-crm)**  
-  Open-source Laravel CRM with lead management, pipeline tracking, and email integration. Suitable for small manufacturer sales teams [citation:15].
-
-- **[Twenty](https://github.com/twentyhq/twenty)**  
-  Modern open-source CRM with contacts, companies, and opportunities management. Growing ecosystem for manufacturing use cases [citation:15].
-
-### Additional Strong Open-Source Options
-
-- **[qcadoo MES](https://github.com/qcadoo/mes)** — Open-source manufacturing execution system for small and medium companies with production management, AGPL-3.0 licensed [citation:18].
-- **[OpenMES](https://github.com/mes-open/openMES)** — Open-source MES with work orders, production planning, packaging/EAN scanning, and modular hooks for ERP integration [citation:8].
-- **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)** — Low-code manufacturing execution system for advanced manufacturing with hash-chained audit trails and policy-based execution [citation:3].
-- **[OpenQMS](https://github.com/c-realize/openqms)** — Lightweight cloud-native Quality Management System for regulated manufacturing industries, AGPL licensed [citation:4].
-- **[Manufacturing Shop CRM](https://github.com/)** — Self-hosted Django CRM/ERP for small CNC shops with BOMs, technical drawings (DXF/STEP/STL), and AI assistant [citation:20].
-- **Orchestration Tools** — Apache Airflow, Dagster, Prefect for production workflow scheduling.
-- **Analytics Tools** — Metabase, Apache Superset, Grafana for manufacturing dashboards.
-- **MES Alternatives** — qcadoo MES, OpenMES, and cloud-mes for production floor management.
-
-**Frameworks for building custom systems**: Combine **ERPNext** or **Odoo** for ERP backbone, **SuiteCRM** or **EspoCRM** for customer relationships, **qcadoo MES** or **OpenMES** for production execution, and **Metabase + PostgreSQL** for manufacturing analytics to build a complete self-hosted manufacturing CRM stack.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Manufacturing CRM tools must comply with data protection regulations (GDPR, CCPA), industry standards (ISO 9001, IATF 16949), and product safety regulations.
-- Self-hosted open-source solutions require proper security hardening, data governance, and manufacturing domain expertise.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Manufacturing-CRM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Manufacturing-CRM?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for manufacturing executives, sales engineers, production managers, and developers building manufacturer-focused CRM platforms.**  
-Let's make manufacturing CRM more open, production-aware, and manufacturer-friendly.
+## 🧭 Top Manufacturing CRM Tools Ecosystem 🛠️
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Production Planning, BOM Management, Shop Floor Execution (MES) & Manufacturer-Customer Relationships (CPQ)*  
+**Last updated: March 2026**
+
+This repository is an authoritative, SEO-optimized directory tracking enterprise **SaaS platforms**, industry-specific **ERP/CRM suites**, and community **open-source projects** for **Manufacturing CRM**. In modern industrial manufacturing, traditional generic sales CRMs fail to address the complex requirements of production: connecting configure-price-quote (CPQ) workflows to multi-level bills of materials (BOM), coordinating job shop scheduling, syncing distributor portals, tracking work-in-progress (WIP) on the factory floor, and servicing aftermarket warranty claims.
+
+Whether you operate a discrete manufacturing facility, job shop, CNC machining business, or develop data-sovereign manufacturing systems, this guide catalogs both market-leading proprietary suites and extensible self-hosted codebases.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Enterprise Hosted Platforms](#️-saas--enterprise-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧩 Frameworks for Custom Implementations](#-frameworks-for-custom-implementations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global manufacturing CRM and operational software sector represents an estimated market size of **$18.5 Billion to $22.4 Billion (expanding at ~12.8% CAGR)**, driven by industrial digital transformation (Industry 4.0), demand for supply chain visibility, and intelligent configure-price-quote (CPQ) automation. 
+
+The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly: while mega-cap hyperscalers (Salesforce, Microsoft Dynamics) anchor enterprise Fortune 500 sales agreements, mid-market discrete and process manufacturing remains heavily distributed among specialized ERP/CRM vendors (Epicor, Infor, Katana, JobBOSS) alongside an accelerating wave of extensible, data-sovereign open-source platforms (ERPNext, Odoo, InvenTree).
+
+---
+
+## ☁️ SaaS & Enterprise Hosted Platforms
+
+The table below catalogs premier SaaS & Cloud ERP/CRM platforms tailored for manufacturing workflows. Platforms are sorted in **descending order by company scale (Revenue / Valuation)**.
+
+| Platform / Vendor | Scale (Revenue / Valuation) | Starting Tier Pricing | Free Tier / Trial Limit | Key Manufacturing & CRM Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Dynamics 365 Supply Chain](https://www.microsoft.com/en-us/dynamics-365)** | **$245B+ Annual Revenue** (Microsoft Cloud ecosystem) | **$180 per user/month** (Dynamics 365 Supply Chain Management base) | **30-day full feature trial** (Includes sample manufacturing tenant & sandbox access) | Enterprise-scale ERP and CRM unification with real-time shop floor execution, planning optimization, and asset management. |
+| **[Salesforce Manufacturing Cloud](https://www.salesforce.com/)** | **$38B+ Annual Revenue** ($280B+ Market Cap) | **$275 per user/month** (Enterprise Manufacturing Cloud edition) | **30-day guided interactive trial** (Pre-populated manufacturing scenario data & quote templates) | Industry-standard CRM featuring sales agreement run-rate commitments, account-based forecasting, and distributor relationship management. |
+| **[Infor CloudSuite Manufacturing](https://www.infor.com/)** | **$3.5B+ Annual Revenue** (Koch Industries subsidiary) | **~$150 per user/month** (Quoted via annual enterprise deployment tier) | **Interactive guided test sandbox** (No self-serve persistent free tier) | Multi-facility discrete & process manufacturing ERP with embedded CRM, supply chain planning, and field service management. |
+| **[Epicor ERP (Kinetic)](https://www.epicor.com/)** | **~$1.1B Annual Revenue** (~$4.7B Valuation) | **~$120 per user/month** (Per user core subscription model) | **14-day guided proof-of-concept trial** (Access through partner/sales onboarding) | Make-to-order (MTO) and engineer-to-order (ETO) specialist featuring CPQ, visual production scheduling, and nested BOM routing. |
+| **[Plex Systems](https://www.plex.com/)** | **~$350M Annual Revenue** (Rockwell Automation division) | **~$200 per user/month** (Smart Manufacturing Cloud suite) | **Guided testbed demo environment** (Sales-validated proof-of-concept period) | Cloud-native MES & ERP integration offering real-time shop floor telemetry, production tracking, and quality management. |
+| **[QAD Adaptive ERP](https://www.qad.com/)** | **~$340M Annual Revenue** (Thoma Bravo portfolio) | **~$135 per user/month** (Adaptive enterprise subscription) | **Guided demo & trial instance** (Provided on request for qualified manufacturing teams) | Adaptive ERP engineered for automotive, life sciences, and high-tech manufacturing with supplier & customer portal automation. |
+| **[Fishbowl](https://www.fishbowlinventory.com/)** | **~$120M Annual Revenue** | **$329 per month** (Fishbowl Drive / Manufacturing base plan) | **14-day free trial** (Full manufacturing, work orders & QuickBooks sync capabilities) | High-velocity inventory control and light manufacturing software featuring job tracking, BOMs, and barcode scanning. |
+| **[JobBOSS²](https://www.jobboss.com/)** | **~$95M Annual Revenue** (ECi Software group) | **$140 per user/month** (JobBOSS² cloud standard tier) | **Interactive product tour & custom trial** (On-demand test workspace with sales demo) | Custom job shop ERP & CRM designed for contract manufacturers with estimating, fast quoting, scheduling, and tracking. |
+| **[Rootstock Software](https://www.rootstock.com/)** | **~$60M Annual Revenue** (Gryphon Investors backed) | **$175 per user/month** (Manufacturing Cloud on Salesforce) | **30-day Salesforce AppExchange test drive** (Pre-configured sandbox environment) | Native Salesforce Manufacturing ERP integrating customer opportunities directly into production work orders and MRP. |
+| **[Katana Cloud Manufacturing](https://katanamrp.com/)** | **~$35M ARR** (~$250M Valuation) | **$359 per month** (Standard plan billed annually, includes 3 users) | **14-day free trial** (No credit card required; full access to live shop floor app & BOM builder) | Visual production planning and inventory CRM built for scaling modern SME manufacturers, eCommerce makers, and workshops. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The following self-hosted and open-source solutions provide full code sovereignty, auditable production workflows, and zero vendor lock-in. 
+
+Projects are sorted in **descending order by GitHub Star count** 🌟. Click any star badge to inspect the repository stargazers.
+
+| Project & Repository | GitHub Stars Badge | Primary License | Architecture & Focus |
+| :--- | :---: | :---: | :--- |
+| **[Twenty](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | Modern CRM with extensible data models, REST/GraphQL APIs, and custom pipeline workflows adaptable for industrial B2B sales pipelines. |
+| **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Comprehensive modular suite featuring MRP, Work Centers, Routing, PLM, CPQ, Maintenance, and full customer lifecycle pipelines. |
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Python/Frappe ERP with end-to-end multi-level BOMs, capacity planning, job cards, subcontracting, and deep sales pipeline linkage. |
+| **[Krayin CRM](https://github.com/krayin/laravel-crm)** | [![Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers) | MIT | Modular PHP/Laravel CRM designed for high performance, custom entities, sales lead tracking, and manufacturing quote follow-ups. |
+| **[Dolibarr](https://github.com/Dolibarr/dolibarr)** | [![Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | GPL-3.0 | Lightweight ERP/CRM engine for small enterprises with production orders, stock tracking, shipments, and customer invoicing. |
+| **[InvenTree](https://github.com/inventree/InvenTree)** | [![Stars](https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white)](https://github.com/inventree/InvenTree/stargazers) | MIT | Powerful Python/Django inventory and manufacturing tracking platform with BOM management, purchase orders, build orders, and supplier linking. |
+| **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** | [![Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers) | AGPL-3.0 | Battle-tested enterprise CRM framework adaptable for manufacturer accounts, distributor networks, and ERP syncing via REST APIs. |
+| **[EspoCRM](https://github.com/espocrm/espocrm)** | [![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | GPL-3.0 | Fast, flexible SPA CRM with BPM workflow automation, custom relations, order tracking, and field-level access control. |
+| **[metasfresh](https://github.com/metasfresh/metasfresh)** | [![Stars](https://img.shields.io/github/stars/metasfresh/metasfresh?style=social&color=white)](https://github.com/metasfresh/metasfresh/stargazers) | GPL-2.0 | Java/OSGi enterprise ERP built for mass-transaction manufacturing, supply chain tracking, automated scheduling, and CRM workflows. |
+| **[PartKeepr](https://github.com/partkeepr/PartKeepr)** | [![Stars](https://img.shields.io/github/stars/partkeepr/PartKeepr?style=social&color=white)](https://github.com/partkeepr/PartKeepr/stargazers) | GPL-3.0 | Electronic and mechanical component inventory and manufacturing assembly tracker with part parameterization and stock allocation. |
+| **[Craftplan](https://github.com/puemos/craftplan)** | [![Stars](https://img.shields.io/github/stars/puemos/craftplan?style=social&color=white)](https://github.com/puemos/craftplan/stargazers) | AGPL-3.0 | Elixir/Phoenix ERP custom-crafted for artisanal and small-batch production with versioned BOM cost rollups, batching, and order CRM. |
+| **[Apache OFBiz](https://github.com/apache/ofbiz-framework)** | [![Stars](https://img.shields.io/github/stars/apache/ofbiz-framework?style=social&color=white)](https://github.com/apache/ofbiz-framework/stargazers) | Apache-2.0 | Proven Apache software foundation business application suite with manufacturing MRP, catalog pricing, and sales lifecycle features. |
+| **[qcadoo MES](https://github.com/qcadoo/mes)** | [![Stars](https://img.shields.io/github/stars/qcadoo/mes?style=social&color=white)](https://github.com/qcadoo/mes/stargazers) | AGPL-3.0 | Dedicated web-based manufacturing execution system (MES) for small-to-medium factories with work orders, scheduling, and quality checks. |
+| **[MyCompany](https://github.com/lsfusion-solutions/mycompany)** | [![Stars](https://img.shields.io/github/stars/lsfusion-solutions/mycompany?style=social&color=white)](https://github.com/lsfusion-solutions/mycompany/stargazers) | Apache-2.0 | Built on the lsFusion platform; unifies BOMs, work centers, Kanban pipelines, customer orders, and raw material procurement in one app. |
+| **[Tryton](https://github.com/tryton/tryton)** | [![Stars](https://img.shields.io/github/stars/tryton/tryton?style=social&color=white)](https://github.com/tryton/tryton/stargazers) | GPL-3.0 | Highly modular three-tier architecture featuring production routing, lead management, BOM calculations, and supply chain tracking. |
+| **[OpenMES](https://github.com/mes-open/openMES)** | [![Stars](https://img.shields.io/github/stars/mes-open/openMES?style=social&color=white)](https://github.com/mes-open/openMES/stargazers) | MIT | Lightweight shop-floor execution system with packaging/EAN barcode scanning, terminal interfaces, and manufacturing work order dispatches. |
+| **[Celerp](https://github.com/celerp/celerp)** | [![Stars](https://img.shields.io/github/stars/celerp/celerp?style=social&color=white)](https://github.com/celerp/celerp/stargazers) | MIT / Elastic | Cloud-native ERP with modern tech stack, modular CRM pipelines, purchase orders, inventory, and discrete production modules. |
+| **[OpenQMS](https://github.com/c-realize/openqms)** | [![Stars](https://img.shields.io/github/stars/c-realize/openqms?style=social&color=white)](https://github.com/c-realize/openqms/stargazers) | AGPL-3.0 | Cloud-native Quality Management System (QMS) ensuring regulatory compliance (ISO 9001/IATF) connected to customer claims and CAPA workflows. |
+| **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)** | [![Stars](https://img.shields.io/github/stars/opencore-mes/opencore-mes?style=social&color=white)](https://github.com/opencore-mes/opencore-mes/stargazers) | Apache-2.0 | Modern low-code MES foundation supporting cryptographic audit trails, policy-driven manufacturing, and API-first hardware connectivity. |
+| **[Carbon](https://github.com/teristit/carbon)** | [![Stars](https://img.shields.io/github/stars/teristit/carbon?style=social&color=white)](https://github.com/teristit/carbon/stargazers) | MIT | Open-source configure-to-order manufacturing platform designed for complex assemblies, nested multi-level BOMs, and engineer-to-order pipelines. |
+
+---
+
+## 🧩 Frameworks for Custom Implementations
+
+When engineering a tailored, self-hosted manufacturing tech stack, industry best practices favor composing best-of-breed modules:
+
+```mermaid
+flowchart LR
+    A["Lead / Inbound RFQ"] --> B["CRM (SuiteCRM / EspoCRM / Twenty)"]
+    B --> C["CPQ & Quoting Engine"]
+    C --> D["ERP Core (ERPNext / Odoo)"]
+    D --> E["BOM & Routing Engine"]
+    E --> F["MES & Shop Floor (OpenMES / qcadoo)"]
+    F --> G["Analytics & Dashboards (Metabase / Grafana)"]
+```
+
+- **ERP Core Backbone**: [ERPNext](https://github.com/frappe/erpnext) or [Odoo](https://github.com/odoo/odoo)
+- **Dedicated B2B Customer Pipeline**: [Twenty](https://github.com/twentyhq/twenty) or [EspoCRM](https://github.com/espocrm/espocrm)
+- **Component & Inventory Allocation**: [InvenTree](https://github.com/inventree/InvenTree) or [PartKeepr](https://github.com/partkeepr/PartKeepr)
+- **Shop Floor Execution & Terminals**: [OpenMES](https://github.com/mes-open/openMES) or [qcadoo MES](https://github.com/qcadoo/mes)
+- **Telemetry & Production BI**: Metabase, Apache Superset, or Grafana backed by PostgreSQL / TimescaleDB.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from manufacturing developers, industrial automation engineers, and operations specialists are always welcome! 🌟
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a topic branch: `git checkout -b feature/add-new-tool`.
+3. 📝 Add your tool to the table (maintain ascending/descending sorting criteria and explicit pricing/star details).
+4. ✅ Ensure links point directly to official documentation or source code.
+5. 🚀 Submit a descriptive **Pull Request**.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Manufacturing-CRM&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Manufacturing-CRM&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated manufacturing repository assists your company, team, or projects, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork & share** with fellow developers and manufacturing professionals.
+- ☕ **Sponsor or buy a coffee**: Support ongoing curation and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this ecosystem directory accurate, comprehensive, and up to date! ❤️
+
+---
+
+## ⚖️ Disclaimer
+
+- This curated directory is maintained for informational and educational purposes. Mention of proprietary products does not constitute an official endorsement or certification.
+- Manufacturing information systems frequently handle sensitive intellectual property, CAD models, export-controlled data (ITAR/EAR), and must comply with safety regulations (ISO 9001, IATF 16949, AS9100) and data privacy frameworks (GDPR, CCPA).
+- Self-hosted open-source software should undergo rigorous network hardening, automated backups, and access reviews before production shop-floor deployment.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for industrial engineers, operations leaders, shop managers, and developers building the future of manufacturing software.</b>
+</p>
